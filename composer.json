@@ -1,0 +1,25 @@
+{
+    "name": "tunaaoguzhann/php-dataforge",
+    "description": "PHP Database Migration & Seeder Tool for multiple database systems",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "fakerphp/faker": "^1.20",
+      "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpDataforge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpDataforge\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "bin": ["bin/dataforge"]
+}
